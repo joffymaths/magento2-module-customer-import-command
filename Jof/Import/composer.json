@@ -1,0 +1,18 @@
+{
+  "name": "joffymaths/magento2-module-customer-import-command",
+  "description": "Import customer via console command",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "magento/module-import-export": "100.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jof\\Import\\": ""
+    }
+  }
+}
